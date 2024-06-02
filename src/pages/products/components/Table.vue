@@ -124,7 +124,7 @@
 	const widthForComponents = ref([]);
 	const setWidthForComponents = () => {
 		if (window.innerWidth > 768) {
-			widthForComponents.value = ["45px", "30px", "350px", "190px", "95px", "227px", "175px"];
+			widthForComponents.value = ["45px", "45px", "500px", "250px", "250px", "220px", "200px"];
 		} else {
 			widthForComponents.value = [];
 		}
